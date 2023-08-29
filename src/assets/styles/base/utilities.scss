@@ -1,0 +1,26 @@
+.wrapper {
+  max-width: 85rem;
+  margin-inline: auto;
+  padding-inline: var(--wrapper-padding);
+}
+
+/* grid layout defaults */
+.auto-grid {
+  display: grid;
+  grid-template-columns:
+    repeat(var(--auto-grid-placement, auto-fit),
+    minmax(min(100%, var(--auto-grid-min-size, 18.75rem)), 1fr));
+  gap: var(--auto-grid-gap, var(--space-s));
+}
+
+/* hide element visually, but keep it accessible for screen
+reader users */
+.sr-only {
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}

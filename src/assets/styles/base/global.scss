@@ -1,0 +1,18 @@
+body {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.5;
+  color: #333;
+  letter-spacing: 0.02em;
+  background-color: #777;
+}
+
+/* sticky footer */
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  & > footer {
+    margin-top: auto;
+  }
+}
