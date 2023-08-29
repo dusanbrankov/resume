@@ -1,3 +1,5 @@
+import Language from './Language.jsx';
+
 function Header() {
   return <>
     <header>
@@ -15,10 +17,7 @@ function Header() {
           <li><a href="#0">Contact</a></li>
           <li><a href="#0">About</a></li>
         </ul>
-        <select>
-          <option lang="de" value="deutsch" selected>Deutsch</option>
-          <option lang="en" value="english">English</option>
-        </select>
+        <Language />
       </nav>
     </header>
   </>;
