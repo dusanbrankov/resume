@@ -1,3 +1,10 @@
 :root {
+  --white: whitesmoke;
+  --black: #1c1c1c;
+  --grey-shade-1: hsl(0, 0%, 37%);
+  --grey-shade-2: hsl(0, 0%, 76%);
+  --page-bg-color: var(--white);
+  --text-color: #333;
+  --link-color: hsl(222, 58%, 36%);
   --wrapper-padding: max(3.5vw, 20px);
 }
