@@ -1,0 +1,96 @@
+h1 {
+  font-size: 34px;
+  line-height: 1;
+  max-width: 40ch;
+  margin-bottom: 34px;
+}
+
+h1 + * {
+  margin: 0 0 55px 34px;
+}
+
+.cv-address {
+  display: grid;
+  gap: 8px;
+  font-style: normal;
+  margin-bottom: 21px;
+
+  a {
+    color: hsl(222, 58%, 36%);
+    text-decoration-color: #333;
+    text-decoration-line: underline;
+    text-decoration-thickness: 1px;
+    &:hover {
+      color: #333;
+    }
+  }
+}
+
+.personal-info {
+  margin: 21px 0 0;
+  color: hsl(0, 0%, 37%);
+}
+
+.cv-container {
+  section {
+    margin-bottom: 34px;
+  }
+
+  h2 {
+  font-size: 21px;
+  margin-bottom: 34px;
+  }
+
+  h3 {
+    font-size: 16px;
+    font-weight: 400;
+    flex: 0 0 233px;
+  }
+}
+
+.timeline {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 8px;
+  &:not(:last-child) {
+    margin-bottom: 21px;
+  }
+
+  > div {
+    flex: 1 1 60ch;
+  }
+
+  ul {
+    margin-top: 5px;
+  }
+}
+
+.job-description {
+  font-weight: 700;
+}
+
+.skills {
+  > div:not(:last-child) {
+    margin-bottom: 21px;
+  }
+  h3 {
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+}
+
+.pdf-dl-btn {
+  background-color: var(--black);
+  color: var(--white);
+  display: flex;
+  width: fit-content;
+  padding: 12px 16px;
+  font-size: 14px;
+  border-radius: 4px;
+  align-items: center;
+  gap: 12px;
+
+  span {
+    margin-top: 2px;
+  }
+}

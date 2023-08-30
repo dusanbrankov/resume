@@ -1,0 +1,11 @@
+.site-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 55px 0 21px;
+  a {
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
