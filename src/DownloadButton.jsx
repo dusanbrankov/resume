@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import CVPdf from '/cv.pdf';
+import CVPdf from '/dusan-brankov_resume.pdf';
 
 function DownloadButton() {
   const { t } = useTranslation();
