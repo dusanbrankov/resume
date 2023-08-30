@@ -1,3 +1,24 @@
 {
-  "section1": "Beruflicher Werdegang"
+  "birth": "geboren am 7. Juli 1986 in Herford, Deutschland",
+  "citizenship": "Staatsangehörigkeit: serbisch",
+  "career_title": "Beruflicher Werdegang",
+  "career0_title": "Selbstständig als Grafik- & Webdesigner",
+  "career0_company": "Kleingewerbe - Bad Oeynhausen, Deutschland",
+  "career1_title": "Web-Entwickler & Grafikdesigner",
+  "career1_company": "Inci Betten GmbH & Co. KG - Löhne, Deutschland",
+  "career1_tasks0": "Grafische Entwicklung von Katalogen & Websites",
+  "career1_tasks1": "Webentwicklung (HTML, CSS, PHP)",
+  "education_title": "Ausbildung",
+  "education0_title": "Mediengestaltung Digital & Print",
+  "education0_place": "b.i.b. International College - Paderborn, Deutschland",
+  "education1_title": "Fachhochschulreife (Informationstechnischer Assistent)",
+  "education1_place": "August-Griese-Berufskolleg - Löhne, Deutschland",
+  "skills_title": "Kompetenzen",
+  "skills_frontend": "Frontend",
+  "skills_more": "Weitere Programmiersprachen",
+  "skills_lang": "Sprachen",
+  "skills_lang_de": "Deutsch (Muttersprache)",
+  "skills_lang_en": "Englisch",
+  "skills_lang_sr": "Serbisch",
+  "download_pdf": "PDF herunterladen"
 }
