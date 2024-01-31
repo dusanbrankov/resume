@@ -3,7 +3,7 @@ import Language from './Language.jsx';
 function Header() {
   return <>
     <header className='site-header'>
-      <p className="logo" aria-label="Dusan Brankov homepage">Dusan Brankov</p>
+      <p className="logo" aria-label="Dusan Brankov homepage">Dušan Brankov</p>
       <Language />
     </header>
   </>;
