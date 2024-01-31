@@ -6,12 +6,12 @@ function Language() {
 
   const handleLanguageChange = (e) => {
     i18n.changeLanguage(e.target.value);
-  }
+  };
 
   return (
     <select onChange={handleLanguageChange}>
-      <option lang="de" value="de">Deutsch</option>
       <option lang="en" value="en">English</option>
+      <option lang="de" value="de">Deutsch</option>
     </select>
   );
 }
