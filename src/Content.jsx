@@ -1,11 +1,10 @@
 import { useTranslation } from "react-i18next";
-import DownloadButton from "./DownloadButton.jsx";
 
-function Content() {
+function Content({ targetRef }) {
   const { t } = useTranslation();
 
   return <>
-    <div className="cv-container">
+    <div className="cv-container" ref={targetRef}>
       <h1>Curriculum Vitae</h1>
       <div>
         <address className="cv-address">
